@@ -1,0 +1,238 @@
+/* FONT */
+
+@font-face {
+  font-family: 'Cream';
+  src: url('/font/Cream_Cake.ttf');
+  font-weight:normal;
+}
+@font-face {
+  font-family: 'Birds';
+  src: url('/font/Birds_of_Paradise.ttf');
+  font-weight:normal;
+}
+@font-face {
+  font-family: 'Kg';
+  src: url('/font/KGPrimaryItalics.ttf');
+  font-weight:normal;
+}
+@font-face {
+  font-family: 'Ananda';
+  src: url('/font/Ananda.ttf');
+  font-weight:normal;
+}
+
+/* GENERAL */
+*{
+  box-sizing: border-box;
+}
+body{
+  padding:0;
+  max-width:700px;
+  min-height:100%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+ul{
+  padding:0 30px;;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration:none;
+  color: inherit;
+}
+
+/* HEADER */
+
+.header{
+  position:absolute;;
+  top:0; left:0; right:0;
+  max-width:700px;
+  margin: 0 auto;
+  text-align: center;
+  background-color:#579c87;
+  color:#FBC02D;
+}
+
+/* MENU */
+
+#menu{
+  margin-top:80px;
+  margin-bottom:20px;
+}
+
+.menu-presentation{
+  display:flex;
+  justify-content: space-around;
+  padding:20px;
+}
+.carte{
+  width:40%;
+  height:350px;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2);
+}
+.carte-resto {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width:100%;
+  flex-direction: column;
+  transition-duration: 0.5s;
+}
+
+/* LA NOTE ENCHANTEE */
+.fab{
+  font-size: 2.5em;
+  background: -webkit-linear-gradient(left, #f15861, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.la_note_enchantee{
+  background-color: #fcdfdb;
+  color: #6b5253;
+}
+.la_note_enchantee  .titre{
+font-family: 'Cream', sans-serif;
+font-size:1.8em;
+  padding:5px;
+}
+.la_note_enchantee .titre-menu{
+  font-family:fantasy;
+  margin-top:20px;
+  color: #3c1218
+}
+.la_note_enchantee .carte-resto:hover{
+  transform: scale(1.2);
+  opacity:0.5;
+}
+.center{
+  text-align: center;
+  margin-bottom:100px !important;
+}
+
+/* LA CHIC A LA FRANCAISE */
+
+.le_chic_a_la_francaise{
+  background-color: #fff5fe;
+}
+.le_chic_a_la_francaise .titre{
+  font-family: 'KG';
+  font-size:1.4em;
+  padding:5px;
+  background: -webkit-linear-gradient(left, #d8852e, #905bfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.le_chic_a_la_francaise .titre-menu{
+  font-family:fantasy;
+  margin-top:20px;
+  color: #c77412;
+}
+.le_chic_a_la_francaise .carte-resto:hover{
+  transform: scale(1.2);
+  opacity:0.5;
+}
+
+
+/* LE DELICE DES PAPILLES */
+
+.le_delice_des_papilles{
+  background-color:#f9f9f9;
+}
+.le_delice_des_papilles .titre{
+  font-family: 'Birds', sans-serif;
+  font-size:1.6em;
+  padding:5px;
+  background: -webkit-linear-gradient(left, #0431df, #1b91fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.le_delice_des_papilles .titre-menu{
+  font-family:fantasy;
+  margin-top:20px;
+  color: #0887fb;
+}
+.le_delice_des_papilles .carte-resto:hover{
+  transform: scale(1.2);
+  opacity:0.5;
+}
+
+/* LA PALETTE DU GOUT */
+
+.la_palette_du_gout{
+  background-color: #fdfffd;
+}
+.la_palette_du_gout .titre{
+  font-family: 'Ananda', sans-serif;
+  font-size:1.6em;
+    padding:5px;
+  background: -webkit-linear-gradient(left, #42973c, #bfff7e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.la_palette_du_gout .titre-menu{
+  font-family:fantasy;
+  margin-top:20px;
+  color: #72bf56;
+}
+.la_palette_du_gout .carte-resto:hover{
+  transform: scale(1.2);
+  opacity:0.5;
+}
+
+
+
+/* PROCHAINEMENT */
+
+#prochainement{
+  margin-bottom:80px;
+  color: #FBC02D;
+  text-align: center;
+
+}
+#prochainement h3{
+  max-width:200px;
+  padding:7px;
+  background-color:#579c87;
+  font-size:1.5em;
+  border-radius:5px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+
+/* FOOTER */
+#footer{
+  position: fixed;
+  bottom:0; left:0; right:0;
+  max-width:700px;
+  margin:0 auto;
+  background-color:#579c87;
+}
+#footer ul{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+#footer a{
+  font-size:1.3em;
+  color: #FBC02D;
+}
+
+@media (max-width:668px){
+  .menu-presentation{
+    display: block;
+  }
+  .carte{
+    width:100%;
+  }
+  .carte:first-child{
+    margin-bottom:40px;
+  }
+  #footer ul{
+    padding: 0 5px;
+  }
+}

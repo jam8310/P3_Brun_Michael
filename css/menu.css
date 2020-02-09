@@ -1,0 +1,47 @@
+
+.center h2{
+  margin:0;
+  padding: 30px 0 10px 0;
+}
+.menu-header{
+  padding: 30px 0;
+  font-size:1.2em;
+}
+.entree{
+  font-family:'KG';
+}
+.title-entree{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.title-entree hr{
+  height:4px;
+  width:30%;
+  background-color:#6b5253;
+}
+.title-entree span{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.menu-prix{
+  width:100%;
+  padding-bottom:50px;
+  color: #836569;
+  font-size: 1.2em;
+}
+.entree-prix{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 50px;
+}
+.entree-prix span{
+  font-weight: bold;
+  font-size:1.2em.
+}
+
+.menu-footer{
+  padding-bottom:60px;
+}
