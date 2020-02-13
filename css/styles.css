@@ -46,7 +46,8 @@ li {
   background-color: #579c87;
   color: #FBC02D; }
   .header h1 {
-    font-size: 40px; }
+    font-size: 40px;
+    font-weight: bold; }
 
 /* MENU */
 .main {
@@ -150,7 +151,7 @@ li {
     max-width: 200px;
     padding: 7px;
     background-color: #579c87;
-    font-size: 1.5em;
+    font-size: 25px;
     border-radius: 5px;
     margin: 0 auto;
     font-weight: normal; }
@@ -172,6 +173,7 @@ footer {
     margin-right: auto; }
     footer ul a {
       font-size: 23px;
+      font-weight: normal;
       color: #FBC02D; }
 
 /* PAGE MENU RESTAURANT 1 */
