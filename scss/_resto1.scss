@@ -34,21 +34,18 @@
 .menus{
   padding: 0 50px;
 
-  &__titre h4{
+  &__titre{
     display:flex;
-    justify-content: space-around;
-    font-family:'KG';
-    font-weight: bold;
-    font-size: 35px;
-    margin-bottom:15px;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
 
-    &:before{
-      content:url(/img/barre_gauche_1.png);
-      margin-left: -30px;
+    h4{
+      font-size:20px;
     }
-    &:after{
-      content:url(/img/barre_droite_1.png);
-      margin-right: -30px;
+
+    img{
+      width:calc(100% / 4);
     }
   }
 }
@@ -60,8 +57,14 @@
   font-size: 18px;
   color: #836569;
 
-  &__prix span{
-    color:#3d1319;
+  &__prix {
+    td{
+      padding: 0 20px 0 0;
+    }
+    span{
+      color:#3d1319;
+      padding: 0;
+    }
   }
 }
 

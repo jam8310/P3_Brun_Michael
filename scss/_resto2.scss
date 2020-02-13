@@ -23,7 +23,7 @@
     h2{
       font-size:50px;
       margin-top:0;
-      margin-bottom:100px;
+      margin-bottom:60px;
       font-weight:normal;
       background: -webkit-linear-gradient(left, #fba12d, #9865ff);
       -webkit-background-clip: text;
@@ -36,66 +36,48 @@
   font-family: serif;
 
   &__titre__entree{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+      width:calc(100% / 4);
+    }
+
+    .motif_entree{
       color: #c67412;
+      font-size: 20px;
+    }
 
-      .motif_entree{
-        display:flex;
-        justify-content: space-around;
-        font-family: serif;
-        font-size: 18px;
-        margin-bottom:15px;
-
-
-        &:before{
-          content:url(/img/barre_gauche_2.png);
-          margin-left: -30px;
-        }
-        &:after{
-          content:url(/img/barre_droite_2.png);
-          margin-right: -30px;
-        }
-      }
   }
   &__titre__plats{
-    color: #a56799;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+      width:calc(100% / 4);
+    }
 
     .motif_plats{
-      display:flex;
-      justify-content: space-around;
-      font-family: serif;
-      font-size: 18px;
-      margin-bottom:15px;
+      color: #a56799;
+      font-size: 20px;
 
-
-      &:before{
-        content:url(/img/barre_gauche_2_1.png);
-        margin-left: -30px;
-      }
-      &:after{
-        content:url(/img/barre_droite_2_1.png);
-        margin-right: -30px;
-      }
     }
   }
   &__titre__desserts{
-    color: #6e4ccc;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+      width:calc(100% / 4);
+    }
 
     .motif_desserts{
-      display:flex;
-      justify-content: space-around;
-      font-family: serif;
+      color: #6e4ccc;
       font-size: 18px;
-      margin-bottom:15px;
 
-
-      &:before{
-        content:url(/img/barre_gauche_2_2.png);
-        margin-left: -30px;
-      }
-      &:after{
-        content:url(/img/barre_droite_2_2.png);
-        margin-right: -30px;
-      }
     }
   }
   h4{
