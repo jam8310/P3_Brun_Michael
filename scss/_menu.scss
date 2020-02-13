@@ -1,0 +1,118 @@
+
+/* MENU */
+
+.main{
+  margin-top:110px;
+  margin-bottom:20px;
+
+  &__presentation{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+}
+
+.carte{
+  width:44%;
+  height:350px;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2);
+
+  &__resto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:100%;
+    flex-direction: column;
+    transition-duration: 0.5s;
+
+    &:hover{
+      transform: scale(1.2);
+      opacity:0.5;
+    }
+  }
+}
+.fab{
+  font-size:45px;
+  background: -webkit-linear-gradient(left, #f15861, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.restaurant1{
+  background-color: #fcdfdb;
+  color: #6b5253;
+
+  .titre{
+    font-family: 'Cream', sans-serif;
+    font-size:30px;
+    padding:5px;
+    margin:0 10px;
+  }
+  .titre__menu{
+    font-family: 'KG';
+    font-size: 30px;
+    margin:10px;
+  }
+}
+
+.restaurant2{
+    background-color: #fff5fe;
+    color: #6b5253;
+
+    .titre{
+      font-family: 'KG';
+      font-size:25px;
+      padding:5px;
+      background: -webkit-linear-gradient(left, #d8852e, #905bfd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin:0 10px;
+    }
+    .titre__menu{
+      font-family: sans-serif;
+      font-size: 30px;
+      margin:10px;
+      color: #c77412;
+    }
+}
+
+.restaurant3{
+    background-color: #f9f9f9;
+
+    .titre{
+      font-family: 'Birds', sans-serif;
+      font-size:28px;
+      padding:5px;
+      background: -webkit-linear-gradient(left, #0431df, #1b91fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin:0 10px;
+    }
+    .titre__menu{
+      font-family: 'KG';
+      font-size: 35px;
+      margin:10px;
+      color: #0887fb;
+    }
+}
+
+.restaurant4{
+    background-color: #fdfffd;
+
+    .titre{
+      font-family: 'Ananda', sans-serif;
+      font-size:28px;
+      padding:5px;
+      background: -webkit-linear-gradient(left, #42973c, #bfff7e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin:0 10px;
+    }
+    .titre__menu{
+      font-family: 'KG';
+      font-size: 35px;
+      margin:10px;
+      color: #72bf56;
+    }
+}

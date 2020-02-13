@@ -1,0 +1,326 @@
+@font-face {
+  font-family: 'Cream';
+  src: url("/fonts/Cream_Cake.ttf");
+  font-weight: normal; }
+@font-face {
+  font-family: 'Birds';
+  src: url("/fonts/Birds_of_Paradise.ttf");
+  font-weight: normal; }
+@font-face {
+  font-family: 'Kg';
+  src: url("/fonts/KGPrimaryItalics.ttf");
+  font-weight: normal; }
+@font-face {
+  font-family: 'Ananda';
+  src: url("/fonts/Ananda.ttf");
+  font-weight: normal; }
+/* GENERAL */
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  max-width: 700px;
+  min-height: 100%;
+  margin: 0 auto;
+  font-family: sans-serif; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+ul {
+  padding: 0 30px; }
+
+li {
+  list-style: none; }
+
+/* HEADER */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #579c87;
+  color: #FBC02D; }
+  .header h1 {
+    font-size: 40px; }
+
+/* MENU */
+.main {
+  margin-top: 110px;
+  margin-bottom: 20px; }
+  .main__presentation {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px; }
+
+.carte {
+  width: 44%;
+  height: 350px;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2); }
+  .carte__resto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    transition-duration: 0.5s; }
+    .carte__resto:hover {
+      transform: scale(1.2);
+      opacity: 0.5; }
+
+.fab {
+  font-size: 45px;
+  background: -webkit-linear-gradient(left, #f15861, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.restaurant1 {
+  background-color: #fcdfdb;
+  color: #6b5253; }
+  .restaurant1 .titre {
+    font-family: 'Cream', sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0 10px; }
+  .restaurant1 .titre__menu {
+    font-family: 'KG';
+    font-size: 30px;
+    margin: 10px; }
+
+.restaurant2 {
+  background-color: #fff5fe;
+  color: #6b5253; }
+  .restaurant2 .titre {
+    font-family: 'KG';
+    font-size: 25px;
+    padding: 5px;
+    background: -webkit-linear-gradient(left, #d8852e, #905bfd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 10px; }
+  .restaurant2 .titre__menu {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 10px;
+    color: #c77412; }
+
+.restaurant3 {
+  background-color: #f9f9f9; }
+  .restaurant3 .titre {
+    font-family: 'Birds', sans-serif;
+    font-size: 28px;
+    padding: 5px;
+    background: -webkit-linear-gradient(left, #0431df, #1b91fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 10px; }
+  .restaurant3 .titre__menu {
+    font-family: 'KG';
+    font-size: 35px;
+    margin: 10px;
+    color: #0887fb; }
+
+.restaurant4 {
+  background-color: #fdfffd; }
+  .restaurant4 .titre {
+    font-family: 'Ananda', sans-serif;
+    font-size: 28px;
+    padding: 5px;
+    background: -webkit-linear-gradient(left, #42973c, #bfff7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 10px; }
+  .restaurant4 .titre__menu {
+    font-family: 'KG';
+    font-size: 35px;
+    margin: 10px;
+    color: #72bf56; }
+
+/* PROCHAINEMENT */
+.prochainement {
+  margin-bottom: 80px;
+  color: #FBC02D;
+  text-align: center; }
+  .prochainement h3 {
+    max-width: 200px;
+    padding: 7px;
+    background-color: #579c87;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-weight: normal; }
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #579c87; }
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto; }
+    footer ul a {
+      font-size: 23px;
+      color: #FBC02D; }
+
+/* PAGE MENU RESTAURANT 1 */
+.menu {
+  margin-top: 110px;
+  margin-bottom: 70px; }
+  .menu__heading {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px; }
+
+.restaurant1_carte {
+  background-color: #fcdfdb;
+  font-family: "Cream", sans-serif;
+  padding: 5px;
+  margin: 0 10px; }
+  .restaurant1_carte .menu__header {
+    text-align: center;
+    padding-top: 35px; }
+    .restaurant1_carte .menu__header i {
+      font-size: 60px; }
+    .restaurant1_carte .menu__header h2 {
+      font-size: 50px;
+      margin-top: 0;
+      font-weight: normal;
+      color: #3d1319; }
+
+.menus {
+  padding: 0 50px; }
+  .menus__titre h4 {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'KG';
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 15px; }
+    .menus__titre h4:before {
+      content: url(/img/barre_gauche_1.png);
+      margin-left: -30px; }
+    .menus__titre h4:after {
+      content: url(/img/barre_droite_1.png);
+      margin-right: -30px; }
+
+.entree {
+  width: 100%;
+  line-height: 35px;
+  font-family: 'KG';
+  font-size: 18px;
+  color: #836569; }
+  .entree__prix span {
+    color: #3d1319; }
+
+.menu__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .menu__footer h2 {
+    font-weight: normal;
+    font-size: 40px;
+    padding-left: 20px;
+    color: #3d1319; }
+
+/* PAGE MENU RESTAURANT 2 */
+.menu {
+  margin-top: 110px;
+  margin-bottom: 70px; }
+  .menu__heading {
+    text-align: center;
+    padding-top: 30px; }
+
+.restaurant2_carte {
+  background-color: #fff5fe;
+  font-family: 'KG';
+  padding: 50px 5px;
+  margin: 0 10px; }
+  .restaurant2_carte .menu__header {
+    text-align: center;
+    padding-top: 35px; }
+    .restaurant2_carte .menu__header h2 {
+      font-size: 50px;
+      margin-top: 0;
+      margin-bottom: 100px;
+      font-weight: normal;
+      background: -webkit-linear-gradient(left, #fba12d, #9865ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+
+.menus {
+  padding: 0 50px;
+  font-family: serif; }
+  .menus__titre__entree {
+    color: #c67412; }
+    .menus__titre__entree .motif_entree {
+      display: flex;
+      justify-content: space-around;
+      font-family: serif;
+      font-size: 18px;
+      margin-bottom: 15px; }
+      .menus__titre__entree .motif_entree:before {
+        content: url(/img/barre_gauche_2.png);
+        margin-left: -30px; }
+      .menus__titre__entree .motif_entree:after {
+        content: url(/img/barre_droite_2.png);
+        margin-right: -30px; }
+  .menus__titre__plats {
+    color: #a56799; }
+    .menus__titre__plats .motif_plats {
+      display: flex;
+      justify-content: space-around;
+      font-family: serif;
+      font-size: 18px;
+      margin-bottom: 15px; }
+      .menus__titre__plats .motif_plats:before {
+        content: url(/img/barre_gauche_2_1.png);
+        margin-left: -30px; }
+      .menus__titre__plats .motif_plats:after {
+        content: url(/img/barre_droite_2_1.png);
+        margin-right: -30px; }
+  .menus__titre__desserts {
+    color: #6e4ccc; }
+    .menus__titre__desserts .motif_desserts {
+      display: flex;
+      justify-content: space-around;
+      font-family: serif;
+      font-size: 18px;
+      margin-bottom: 15px; }
+      .menus__titre__desserts .motif_desserts:before {
+        content: url(/img/barre_gauche_2_2.png);
+        margin-left: -30px; }
+      .menus__titre__desserts .motif_desserts:after {
+        content: url(/img/barre_droite_2_2.png);
+        margin-right: -30px; }
+
+.entrees {
+  width: 100%;
+  line-height: 35px;
+  font-size: 16px;
+  color: #d4944d; }
+
+.plats {
+  width: 100%;
+  line-height: 35px;
+  font-size: 16px;
+  color: #bc8bb2; }
+
+.desserts {
+  width: 100%;
+  line-height: 35px;
+  font-size: 16px;
+  color: #6e4ccc; }
+
+/*# sourceMappingURL=styles.css.map */

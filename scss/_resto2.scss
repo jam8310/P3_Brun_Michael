@@ -1,0 +1,126 @@
+
+
+/* PAGE MENU RESTAURANT 2 */
+
+.menu{
+  margin-top:110px;
+  margin-bottom:70px;
+  &__heading{
+    text-align:center;
+    padding-top:30px;
+  }
+}
+.restaurant2_carte{
+  background-color: #fff5fe;
+  font-family: 'KG';
+  padding: 50px 5px;
+  margin: 0 10px;
+
+  .menu__header{
+    text-align:center;
+    padding-top:35px;
+
+    h2{
+      font-size:50px;
+      margin-top:0;
+      margin-bottom:100px;
+      font-weight:normal;
+      background: -webkit-linear-gradient(left, #fba12d, #9865ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+.menus{
+  padding: 0 50px;
+  font-family: serif;
+
+  &__titre__entree{
+      color: #c67412;
+
+      .motif_entree{
+        display:flex;
+        justify-content: space-around;
+        font-family: serif;
+        font-size: 18px;
+        margin-bottom:15px;
+
+
+        &:before{
+          content:url(/img/barre_gauche_2.png);
+          margin-left: -30px;
+        }
+        &:after{
+          content:url(/img/barre_droite_2.png);
+          margin-right: -30px;
+        }
+      }
+  }
+  &__titre__plats{
+    color: #a56799;
+
+    .motif_plats{
+      display:flex;
+      justify-content: space-around;
+      font-family: serif;
+      font-size: 18px;
+      margin-bottom:15px;
+
+
+      &:before{
+        content:url(/img/barre_gauche_2_1.png);
+        margin-left: -30px;
+      }
+      &:after{
+        content:url(/img/barre_droite_2_1.png);
+        margin-right: -30px;
+      }
+    }
+  }
+  &__titre__desserts{
+    color: #6e4ccc;
+
+    .motif_desserts{
+      display:flex;
+      justify-content: space-around;
+      font-family: serif;
+      font-size: 18px;
+      margin-bottom:15px;
+
+
+      &:before{
+        content:url(/img/barre_gauche_2_2.png);
+        margin-left: -30px;
+      }
+      &:after{
+        content:url(/img/barre_droite_2_2.png);
+        margin-right: -30px;
+      }
+    }
+  }
+  h4{
+
+  }
+}
+
+.entrees{
+  width:100%;
+  line-height: 35px;
+  font-size: 16px;
+  color: #d4944d;
+
+}
+
+.plats{
+  width:100%;
+  line-height: 35px;
+  font-size: 16px;
+  color: #bc8bb2;
+}
+
+.desserts{
+  width:100%;
+  line-height: 35px;
+  font-size: 16px;
+  color: #6e4ccc;
+}

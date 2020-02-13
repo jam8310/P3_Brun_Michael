@@ -1,0 +1,79 @@
+
+/* PAGE MENU RESTAURANT 1 */
+
+.menu{
+  margin-top:110px;
+  margin-bottom:70px;
+  &__heading{
+    text-align:center;
+    padding-top:30px;
+    font-size:30px;
+  }
+}
+.restaurant1_carte{
+  background-color: #fcdfdb;
+  font-family: "Cream", sans-serif;
+  padding: 5px;
+  margin: 0 10px;
+
+  .menu__header{
+    text-align:center;
+    padding-top:35px;
+
+    i{
+      font-size:60px;
+    }
+    h2{
+      font-size:50px;
+      margin-top:0;
+      font-weight:normal;
+      color:#3d1319;
+    }
+  }
+}
+.menus{
+  padding: 0 50px;
+
+  &__titre h4{
+    display:flex;
+    justify-content: space-around;
+    font-family:'KG';
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom:15px;
+
+    &:before{
+      content:url(/img/barre_gauche_1.png);
+      margin-left: -30px;
+    }
+    &:after{
+      content:url(/img/barre_droite_1.png);
+      margin-right: -30px;
+    }
+  }
+}
+
+.entree{
+  width:100%;
+  line-height: 35px;
+  font-family: 'KG';
+  font-size: 18px;
+  color: #836569;
+
+  &__prix span{
+    color:#3d1319;
+  }
+}
+
+.menu__footer{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  h2{
+    font-weight:normal;
+    font-size:40px;
+    padding-left:20px;
+    color:#3d1319;
+  }
+}
