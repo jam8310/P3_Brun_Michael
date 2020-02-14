@@ -44,7 +44,7 @@ li {
   margin: 0 auto;
   text-align: center;
   background-color: #579c87;
-  color: #FBC02D; }
+  color: #feb500; }
   .header h1 {
     font-size: 40px;
     font-weight: bold; }
@@ -194,7 +194,7 @@ footer {
     footer ul .lien__footer {
       font-size: 23px;
       font-weight: normal;
-      color: #FBC02D;
+      color: #feb500;
       display: block; }
       footer ul .lien__footer:hover {
         animation: wiggle 75ms 5; }
