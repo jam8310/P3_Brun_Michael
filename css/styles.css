@@ -215,12 +215,11 @@ footer {
 
 .entree {
   width: 100%;
-  line-height: 35px;
   font-family: 'KG';
   font-size: 18px;
   color: #836569; }
   .entree__prix td {
-    padding: 0 20px 0 0; }
+    padding: 0 20px 10px 0; }
   .entree__prix span {
     color: #3d1319;
     padding: 0; }
@@ -263,50 +262,64 @@ footer {
 .menus {
   padding: 0 50px;
   font-family: serif; }
-  .menus__titre__entree {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    .menus__titre__entree img {
-      width: calc(100% / 4); }
-    .menus__titre__entree .motif_entree {
-      color: #c67412;
-      font-size: 20px; }
-  .menus__titre__plats {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    .menus__titre__plats img {
-      width: calc(100% / 4); }
-    .menus__titre__plats .motif_plats {
-      color: #a56799;
-      font-size: 20px; }
-  .menus__titre__desserts {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    .menus__titre__desserts img {
-      width: calc(100% / 4); }
-    .menus__titre__desserts .motif_desserts {
-      color: #6e4ccc;
-      font-size: 18px; }
+  .menus__titre img {
+    width: calc(100% / 4); }
+  .menus__titre .motif_entree {
+    color: #c67412;
+    font-size: 20px; }
+  .menus__titre img {
+    width: calc(100% / 4); }
+  .menus__titre .motif_plats {
+    color: #a56799;
+    font-size: 20px; }
+  .menus__titre img {
+    width: calc(100% / 4); }
+  .menus__titre .motif_desserts {
+    color: #6e4ccc;
+    font-size: 18px; }
 
 .entrees {
   width: 100%;
-  line-height: 35px;
   font-size: 16px;
   color: #d4944d; }
+  .entrees td {
+    padding: 0 20px 10px 0; }
 
 .plats {
   width: 100%;
-  line-height: 35px;
   font-size: 16px;
   color: #bc8bb2; }
+  .plats td {
+    padding: 0 20px 10px 0; }
 
 .desserts {
   width: 100%;
-  line-height: 35px;
   font-size: 16px;
   color: #6e4ccc; }
+  .desserts td {
+    padding: 0 20px 10px 0; }
+
+@media (max-width: 400px) {
+  .footer ul {
+    padding: 0 10px;
+    text-align: center; } }
+@media (max-width: 600px) {
+  .main {
+    margin-top: 120px; }
+    .main__presentation {
+      display: block;
+      padding-top: 0;
+      padding-bottom: 0; }
+
+  .carte {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+
+  .menus__titre {
+    display: block;
+    text-align: center; }
+  .menus img {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */

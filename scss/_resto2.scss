@@ -35,10 +35,7 @@
   padding: 0 50px;
   font-family: serif;
 
-  &__titre__entree{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+  &__titre{
 
     img{
       width:calc(100% / 4);
@@ -50,10 +47,7 @@
     }
 
   }
-  &__titre__plats{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+  &__titre{
 
     img{
       width:calc(100% / 4);
@@ -65,10 +59,7 @@
 
     }
   }
-  &__titre__desserts{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+  &__titre{
 
     img{
       width:calc(100% / 4);
@@ -87,22 +78,30 @@
 
 .entrees{
   width:100%;
-  line-height: 35px;
   font-size: 16px;
   color: #d4944d;
 
+  td{
+    padding: 0 20px 10px 0;
+  }
 }
 
 .plats{
   width:100%;
-  line-height: 35px;
   font-size: 16px;
   color: #bc8bb2;
+
+  td{
+    padding: 0 20px 10px 0;
+  }
 }
 
 .desserts{
   width:100%;
-  line-height: 35px;
   font-size: 16px;
   color: #6e4ccc;
+
+  td{
+    padding: 0 20px 10px 0;
+  }
 }
