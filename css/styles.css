@@ -57,6 +57,8 @@ li {
     display: flex;
     justify-content: space-around;
     padding: 20px; }
+  .main h1 {
+    text-align: center; }
 
 .carte {
   width: 44%;
@@ -195,7 +197,7 @@ footer {
       color: #FBC02D;
       display: block; }
       footer ul .lien__footer:hover {
-        animation: wiggle 75ms infinite; }
+        animation: wiggle 75ms 5; }
 @keyframes wiggle {
   0% {
     transform: translate(2px, 0); }

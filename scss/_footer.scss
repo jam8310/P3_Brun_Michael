@@ -22,7 +22,7 @@ footer{
       display: block;
 
       &:hover{
-        animation: wiggle 75ms infinite;
+        animation: wiggle 75ms 5;
       }
       @keyframes wiggle {
         0% { transform: translate(2px, 0); }
