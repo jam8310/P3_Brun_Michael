@@ -425,6 +425,7 @@ footer {
       font-size: 25px;
       color: #444; }
 
+/* TRAIT TITRE PAGE RESTAURANTS */
 h4 {
   position: relative;
   display: inline-block;
@@ -447,6 +448,7 @@ h4::after {
   width: 100%;
   transition: 0.3s ease all; }
 
+/* RESPONSIVES */
 @media (max-width: 400px) {
   .footer ul {
     padding: 0 10px;
