@@ -163,6 +163,8 @@ li {
     border-radius: 5px;
     margin: 0 auto;
     font-weight: normal; }
+    .prochainement .chargement p {
+      margin: 5px auto; }
     .prochainement .chargement .one {
       opacity: 0;
       animation: dot 2s infinite;
