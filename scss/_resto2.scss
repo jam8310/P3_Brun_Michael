@@ -13,17 +13,17 @@
 .restaurant2_carte{
   background-color: #fff5fe;
   font-family: 'KG';
-  padding: 50px 5px;
+  padding: 5px;
   margin: 0 10px;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2);
 
   .menu__header{
     text-align:center;
-    padding-top:35px;
 
     h2{
       font-size:50px;
-      margin-top:0;
-      margin-bottom:60px;
+      margin-top:20px;
+      margin-bottom:30px;
       font-weight:normal;
       background: -webkit-linear-gradient(left, #fba12d, #9865ff);
       -webkit-background-clip: text;
@@ -31,77 +31,79 @@
     }
   }
 }
-.menus{
+.resto2{
   padding: 0 50px;
-  font-family: serif;
+  font-family:sans-serif;
+  font-weight: normal;
 
-  &__titre{
-
-    img{
-      width:calc(100% / 4);
-    }
-
-    .motif_entree{
+    .motif_entree2{
       color: #c67412;
       font-size: 20px;
     }
-
-  }
-  &__titre{
-
-    img{
-      width:calc(100% / 4);
-    }
-
-    .motif_plats{
+    .motif_plats2{
       color: #a56799;
       font-size: 20px;
-
     }
-  }
-  &__titre{
-
-    img{
-      width:calc(100% / 4);
-    }
-
-    .motif_desserts{
+    .motif_desserts2{
       color: #6e4ccc;
-      font-size: 18px;
-
+      font-size: 20px;
     }
-  }
-  h4{
 
   }
-}
 
-.entrees{
+
+
+.entree2{
   width:100%;
   font-size: 16px;
   color: #d4944d;
 
-  td{
-    padding: 0 20px 10px 0;
+  &__prix{
+    display:flex;
+    justify-content: space-between;
+
+    td:first-child{
+      padding: 0 20px 15px 0;
+    }
+    span{
+      font-size:20px;
+    }
   }
+
 }
 
-.plats{
+.plat2{
   width:100%;
   font-size: 16px;
   color: #bc8bb2;
 
-  td{
-    padding: 0 20px 10px 0;
+  &__prix{
+    display:flex;
+    justify-content: space-between;
+
+    td:first-child{
+      padding: 0 20px 15px 0;
+    }
+    span{
+      font-size:20px;
+    }
   }
 }
 
-.desserts{
+.dessert2{
   width:100%;
   font-size: 16px;
   color: #6e4ccc;
 
-  td{
-    padding: 0 20px 10px 0;
+  &__prix{
+    display:flex;
+    justify-content: space-between;
+
+    td:first-child{
+      padding: 0 20px 15px 0;
+    }
+    span{
+      font-size:20px;
+    }
   }
 }

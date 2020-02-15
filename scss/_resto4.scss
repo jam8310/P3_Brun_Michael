@@ -1,0 +1,50 @@
+
+// PAGE MENU RESTAURANT 3
+
+.restaurant4_carte{
+  background-color: #fdfffd;
+  font-family: 'Kaushan Script', cursive;
+  padding:5px;
+  margin: 0 10px;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2);
+
+
+  .menu__header{
+    text-align:center;
+
+    h2{
+      font-size:50px;
+      margin-top:20px;
+      margin-bottom:30px;
+      padding:10px;
+      background: -webkit-linear-gradient(left, #42973c, #bfff7e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+.resto4{
+  .motif_entree4{
+    font-family: 'comics', sans-serif;
+    color:#111;
+  }
+}
+.entree4{
+  width:100%;
+  font-family: 'comics', sans-serif;
+  color:#615c5c;
+
+  &__prix {
+    display:flex;
+    justify-content: space-between;
+
+    td:first-child{
+      padding: 0 20px 10px 0;
+      font-size:20px;
+    }
+    span{
+      font-size:25px;
+      color:#444;
+    }
+  }
+}

@@ -25,8 +25,7 @@
     }
     h2{
       font-size:50px;
-      margin-top:0;
-      font-weight:normal;
+      margin-top:0px;
       color:#3d1319;
     }
   }
@@ -41,8 +40,7 @@
     padding:0;
 
     h4{
-      font-size:20px;
-
+      font-size:25px;
     }
 
     img{
@@ -50,21 +48,32 @@
     }
   }
 }
+.resto1{
+  font-family: 'comics', sans-serif;
+
+  .motif_entree1{
+    color: #3d1319;
+  }
+}
 
 
-.entree{
+.entree1{
   width:100%;
-  font-family: 'KG';
+  font-family: 'comics', sans-serif;
   font-size: 18px;
   color: #836569;
 
   &__prix {
-    td{
-      padding: 0 20px 10px 0;
+    display:flex;
+    justify-content: space-between;
+
+    td:first-child{
+      padding: 0 20px 15px 0;
+
     }
-    span{
+    td span{
       color:#3d1319;
-      padding: 0;
+      font-size:20px;
     }
   }
 }

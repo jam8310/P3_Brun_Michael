@@ -1,0 +1,53 @@
+
+// PAGE MENU RESTAURANT 3
+
+.restaurant3_carte{
+  background-color: #edefef;
+  font-family: 'Birds', sans-serif;
+  padding:5px;
+  margin: 0 10px;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2);
+
+
+  .menu__header{
+    text-align:center;
+
+    h2{
+      font-size:50px;
+      margin-top:20px;
+      margin-bottom:30px;
+      padding:10px;
+      background: -webkit-linear-gradient(left, #0431df, #1b91fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+.resto3{
+font-family: 'comics', sans-serif;
+
+
+  .motif_entree3{
+    color:#444;
+
+  }
+}
+
+.entree3{
+  width:100%;
+  color:#746868;
+
+  &__prix {
+    display:flex;
+    justify-content: space-between;
+
+    td:first-child{
+      padding: 0 20px 10px 0;
+      font-size:20px;
+    }
+    span{
+      font-size:25px;
+      color:#444;
+    }
+  }
+}

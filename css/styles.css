@@ -14,6 +14,10 @@
   font-family: 'Ananda';
   src: url("/fonts/Ananda.ttf");
   font-weight: normal; }
+@font-face {
+  font-family: 'comics';
+  src: url("/fonts/comics.otf");
+  font-weight: normal; }
 /* GENERAL */
 * {
   box-sizing: border-box; }
@@ -107,7 +111,7 @@ li {
     -webkit-text-fill-color: transparent;
     margin: 0 10px; }
   .restaurant2 .titre__menu {
-    font-family: sans-serif;
+    font-family: serif;
     font-size: 30px;
     margin: 10px;
     color: #c77412; }
@@ -123,7 +127,8 @@ li {
     -webkit-text-fill-color: transparent;
     margin: 0 10px; }
   .restaurant3 .titre__menu {
-    font-family: 'KG';
+    font-family: 'comics', sans-serif;
+    font-weight: lighter;
     font-size: 35px;
     margin: 10px;
     color: #0887fb; }
@@ -139,7 +144,8 @@ li {
     -webkit-text-fill-color: transparent;
     margin: 0 10px; }
   .restaurant4 .titre__menu {
-    font-family: 'KG';
+    font-family: 'comics', sans-serif;
+    font-weight: lighter;
     font-size: 35px;
     margin: 10px;
     color: #72bf56; }
@@ -226,8 +232,7 @@ footer {
       font-size: 60px; }
     .restaurant1_carte .menu__header h2 {
       font-size: 50px;
-      margin-top: 0;
-      font-weight: normal;
+      margin-top: 0px;
       color: #3d1319; }
 
 .menus {
@@ -238,20 +243,28 @@ footer {
     align-items: center;
     padding: 0; }
     .menus__titre h4 {
-      font-size: 20px; }
+      font-size: 25px; }
     .menus__titre img {
       width: calc(100% / 4); }
 
-.entree {
+.resto1 {
+  font-family: 'comics', sans-serif; }
+  .resto1 .motif_entree1 {
+    color: #3d1319; }
+
+.entree1 {
   width: 100%;
-  font-family: 'KG';
+  font-family: 'comics', sans-serif;
   font-size: 18px;
   color: #836569; }
-  .entree__prix td {
-    padding: 0 20px 10px 0; }
-  .entree__prix span {
-    color: #3d1319;
-    padding: 0; }
+  .entree1__prix {
+    display: flex;
+    justify-content: space-between; }
+    .entree1__prix td:first-child {
+      padding: 0 20px 15px 0; }
+    .entree1__prix td span {
+      color: #3d1319;
+      font-size: 20px; }
 
 .menu__footer {
   display: flex;
@@ -274,59 +287,139 @@ footer {
 .restaurant2_carte {
   background-color: #fff5fe;
   font-family: 'KG';
-  padding: 50px 5px;
-  margin: 0 10px; }
+  padding: 5px;
+  margin: 0 10px;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2); }
   .restaurant2_carte .menu__header {
-    text-align: center;
-    padding-top: 35px; }
+    text-align: center; }
     .restaurant2_carte .menu__header h2 {
       font-size: 50px;
-      margin-top: 0;
-      margin-bottom: 60px;
+      margin-top: 20px;
+      margin-bottom: 30px;
       font-weight: normal;
       background: -webkit-linear-gradient(left, #fba12d, #9865ff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
-.menus {
+.resto2 {
   padding: 0 50px;
-  font-family: serif; }
-  .menus__titre img {
-    width: calc(100% / 4); }
-  .menus__titre .motif_entree {
+  font-family: sans-serif;
+  font-weight: normal; }
+  .resto2 .motif_entree2 {
     color: #c67412;
     font-size: 20px; }
-  .menus__titre img {
-    width: calc(100% / 4); }
-  .menus__titre .motif_plats {
+  .resto2 .motif_plats2 {
     color: #a56799;
     font-size: 20px; }
-  .menus__titre img {
-    width: calc(100% / 4); }
-  .menus__titre .motif_desserts {
+  .resto2 .motif_desserts2 {
     color: #6e4ccc;
-    font-size: 18px; }
+    font-size: 20px; }
 
-.entrees {
+.entree2 {
   width: 100%;
   font-size: 16px;
   color: #d4944d; }
-  .entrees td {
-    padding: 0 20px 10px 0; }
+  .entree2__prix {
+    display: flex;
+    justify-content: space-between; }
+    .entree2__prix td:first-child {
+      padding: 0 20px 15px 0; }
+    .entree2__prix span {
+      font-size: 20px; }
 
-.plats {
+.plat2 {
   width: 100%;
   font-size: 16px;
   color: #bc8bb2; }
-  .plats td {
-    padding: 0 20px 10px 0; }
+  .plat2__prix {
+    display: flex;
+    justify-content: space-between; }
+    .plat2__prix td:first-child {
+      padding: 0 20px 15px 0; }
+    .plat2__prix span {
+      font-size: 20px; }
 
-.desserts {
+.dessert2 {
   width: 100%;
   font-size: 16px;
   color: #6e4ccc; }
-  .desserts td {
-    padding: 0 20px 10px 0; }
+  .dessert2__prix {
+    display: flex;
+    justify-content: space-between; }
+    .dessert2__prix td:first-child {
+      padding: 0 20px 15px 0; }
+    .dessert2__prix span {
+      font-size: 20px; }
+
+.restaurant3_carte {
+  background-color: #edefef;
+  font-family: 'Birds', sans-serif;
+  padding: 5px;
+  margin: 0 10px;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2); }
+  .restaurant3_carte .menu__header {
+    text-align: center; }
+    .restaurant3_carte .menu__header h2 {
+      font-size: 50px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      padding: 10px;
+      background: -webkit-linear-gradient(left, #0431df, #1b91fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+
+.resto3 {
+  font-family: 'comics', sans-serif; }
+  .resto3 .motif_entree3 {
+    color: #444; }
+
+.entree3 {
+  width: 100%;
+  color: #746868; }
+  .entree3__prix {
+    display: flex;
+    justify-content: space-between; }
+    .entree3__prix td:first-child {
+      padding: 0 20px 10px 0;
+      font-size: 20px; }
+    .entree3__prix span {
+      font-size: 25px;
+      color: #444; }
+
+.restaurant4_carte {
+  background-color: #fdfffd;
+  font-family: 'Kaushan Script', cursive;
+  padding: 5px;
+  margin: 0 10px;
+  box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2); }
+  .restaurant4_carte .menu__header {
+    text-align: center; }
+    .restaurant4_carte .menu__header h2 {
+      font-size: 50px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      padding: 10px;
+      background: -webkit-linear-gradient(left, #42973c, #bfff7e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+
+.resto4 .motif_entree4 {
+  font-family: 'comics', sans-serif;
+  color: #111; }
+
+.entree4 {
+  width: 100%;
+  font-family: 'comics', sans-serif;
+  color: #615c5c; }
+  .entree4__prix {
+    display: flex;
+    justify-content: space-between; }
+    .entree4__prix td:first-child {
+      padding: 0 20px 10px 0;
+      font-size: 20px; }
+    .entree4__prix span {
+      font-size: 25px;
+      color: #444; }
 
 h4 {
   position: relative;
@@ -342,12 +435,12 @@ h4::after {
   top: 100%;
   height: 2px;
   width: 0%;
-  left: 5%;
-  background-color: rgba(103, 97, 97, 0.6);
+  left: 0%;
+  background-color: rgba(38, 41, 40, 0.6);
   transition: 0.5s ease all .3s; }
 
 .menus__titre:hover h4::after {
-  width: 90%;
+  width: 100%;
   transition: 0.3s ease all; }
 
 @media (max-width: 400px) {
