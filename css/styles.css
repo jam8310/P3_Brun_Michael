@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Cream';
-  src: url("/fonts/Cream_Cake.ttf");
+  src: url("./fonts/Cream_Cake.ttf");
   font-weight: normal; }
 @font-face {
   font-family: 'Birds';
-  src: url("/fonts/Birds_of_Paradise.ttf");
+  src: url("./fonts/Birds_of_Paradise.ttf");
   font-weight: normal; }
 @font-face {
   font-family: 'Kg';
-  src: url("/fonts/KGPrimaryItalics.ttf");
+  src: url("./fonts/KGPrimaryItalics.ttf");
   font-weight: normal; }
 @font-face {
   font-family: 'Ananda';
-  src: url("/fonts/Ananda.ttf");
+  src: url("./fonts/Ananda.ttf");
   font-weight: normal; }
 @font-face {
   font-family: 'comics';
-  src: url("/fonts/comics.otf");
+  src: url("./fonts/comics.otf");
   font-weight: normal; }
 /* GENERAL */
 * {
