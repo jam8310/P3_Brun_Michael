@@ -156,7 +156,7 @@ li {
   color: #FBC02D;
   text-align: center; }
   .prochainement .chargement {
-    max-width: 200px;
+    max-width: 250px;
     padding: 7px;
     background-color: #579c87;
     font-size: 20px;
@@ -289,14 +289,14 @@ footer {
 .restaurant2_carte {
   background-color: #fff5fe;
   font-family: 'KG';
-  padding: 5px;
+  padding: 5px 5px 50px 5px;
   margin: 0 10px;
   box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2); }
   .restaurant2_carte .menu__header {
     text-align: center; }
     .restaurant2_carte .menu__header h2 {
       font-size: 50px;
-      margin-top: 20px;
+      margin-top: 30px;
       margin-bottom: 30px;
       font-weight: normal;
       background: -webkit-linear-gradient(left, #fba12d, #9865ff);
@@ -308,8 +308,7 @@ footer {
   font-family: sans-serif;
   font-weight: normal; }
   .resto2 .motif_entree2 {
-    color: #c67412;
-    font-size: 20px; }
+    color: #c67412; }
   .resto2 .motif_plats2 {
     color: #a56799;
     font-size: 20px; }
