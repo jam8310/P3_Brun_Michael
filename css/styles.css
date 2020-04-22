@@ -288,10 +288,10 @@ footer {
     padding-top: 30px; }
 
 .restaurant2_carte {
-  height: 77vh;
   background-color: #fff5fe;
   font-family: 'KG';
-  padding: 5px 5px 50px 5px;
+  padding: 5px;
+  padding-bottom: 30px;
   margin: 0 10px;
   box-shadow: 1px 0 21px rgba(0, 0, 0, 0.2); }
   .restaurant2_carte .menu__header {
@@ -306,7 +306,7 @@ footer {
       -webkit-text-fill-color: transparent; }
 
 .resto2 {
-  padding: 0 50px;
+  padding: 10px 50px 60px 50px;
   font-family: sans-serif;
   font-weight: normal; }
   .resto2 .motif_entree2 {
